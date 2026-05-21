@@ -5,7 +5,7 @@ public class WalledCityRule implements Rule{
     public void printRuleName() {
         System.out.println("Walled City Rule");
     }
-
+//XD
     @Override
     public boolean computeNextState(boolean currentState, int input) {
         if (currentState && input > 2 && input < 5){ //Aufgabe sagt natürlich nicht ob inkl. oder exkl. ist
