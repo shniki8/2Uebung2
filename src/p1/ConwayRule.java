@@ -9,10 +9,7 @@ public class ConwayRule implements Rule{ //The Game of Life tm
     @Override
     public boolean computeNextState(boolean currentState, int input) {
         if (currentState == true){
-            if (input == 2 || input == 3){
-                return true;
-            }
-            else return false;
-        } else if (input == 3) return true; else return false;
+            return input == 2 || input == 3;
+        } else return input == 3;
     }
 }
