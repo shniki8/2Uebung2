@@ -1,6 +1,7 @@
 package again.p3;
-
+@SuppressWarnings("deprecation")
 public class Main {
+
     public static void main(String[] args) {
         Add a = new Add();
         Multiply m = new Multiply();
@@ -8,5 +9,7 @@ public class Main {
         System.out.println(m.calculate( 24, 2));
         System.out.println(a.getDescription());
         System.out.println(m.getDescription());
+        LegacyCalculator lc = new LegacyCalculator();
+        System.out.println(lc.add(69,0));
     }
 }
