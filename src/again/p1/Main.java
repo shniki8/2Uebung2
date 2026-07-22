@@ -1,5 +1,6 @@
 package again.p1;
 public class Main {
+    //Präsenzaufgaben trivial
     static ToggleRule toggle = new ToggleRule();
     public static void main(String[] args) {
         testCellBehavior(true, toggle);
